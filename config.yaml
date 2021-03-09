@@ -1,0 +1,79 @@
+baseURL: https://gabrieldelarosa.com
+title: Gabriel De La Rosa
+theme: somrat
+disableLanguages: [true]
+params:
+  author: Gabriel De La Rosa
+  contact_form_action: ''
+  description: This is meta description
+  google_analytics_id: ''
+  logo_dark: images/GD-dark.png
+  logo_light: images/GD_light.png
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/fontawesome/font-awesome.min.css
+      - link: plugins/hover/hover.css
+      - link: plugins/magnific-popup/magnific-popup.css
+      - link: plugins/owl-carousel/owl.carousel.min.css
+      - link: plugins/owl-carousel/owl.theme.default.min.css
+      - link: plugins/text-animation/text-animation.css
+      - link: https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900&display=swap
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/wow.min.js
+      - link: plugins/text-animation/text-animation.js
+      - link: plugins/jquery.waypoints.min.js
+      - link: plugins/filterizr/jquery.filterizr.min.js
+      - link: plugins/magnific-popup/jquery.magnific-popup.min.js
+      - link: plugins/owl-carousel/owl.carousel.min.js
+  preloader:
+    enable: yes
+    preloader: images/preloader.gif
+  social:
+    - icon: fa-facebook-f
+      link: https://www.facebook.com/somrat.mac
+    - icon: fa-twitter
+      link: https://twitter.com/somrat_37
+    - icon: fa-instagram
+      link: https://www.instagram.com/somrat_sorkar/
+    - icon: fa-github
+      link: https://github.com/Somrat37
+    - icon: fa-linkedin
+      link: https://www.linkedin.com/in/somrat-sorkar-872581158/
+menu:
+  main:
+    - URL: '#home'
+      name: Home
+      weight: 1
+    - URL: '#about'
+      name: About me
+      weight: 2
+    # - URL: '#service'
+    #   name: Service
+    #   weight: 3
+    - URL: '#portfolio'
+      name: Portfolio
+      weight: 4
+    # - URL: '#testimonial'
+    #   name: Testimonial
+    #   weight: 5
+    - URL: '#contact'
+      name: Contact
+      weight: 6
+Languages:
+  en:
+    contentDir: content/english
+    copyright: Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)
+    home: Home
+    languageCode: en-us
+    languageName: En
+    weight: 1
+  # fr:
+  #   contentDir: content/french
+  #   copyright: Copyright &copy; 2020 a hugo theme by [somrat](https://somrat.netlify.com)
+  #   home: Accueil
+  #   languageCode: fr-fr
+  #   languageName: Fr
+  #   weight: 2
