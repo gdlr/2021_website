@@ -203,7 +203,7 @@ portfolio:
 ############################# media ################################
 media:
   enable : true
-  title : "Media"
+  title : "MEDIA"
   portfolio_list:
     # media item loop
     - name : "Lynx"

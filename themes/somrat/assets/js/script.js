@@ -279,6 +279,51 @@
 	/*--------------------------------
 			 End Portfolio
 	----------------------------------*/
+	
+	/*--------------------------------
+			 Start Media
+	----------------------------------*/
+	// Initialize filterizr Plugin
+    if ( document.getElementById('.filtr-container') ) {
+    	var filterizd = $('.filtr-container').filterizr();
+
+	    // Styling of Filter Controls
+    	$(".media-navigation li").on("click", function () {
+    		$(".media-navigation li").removeClass("active");
+	    	$(this).addClass("active");
+    	});
+
+    	// Initialize MagnificPopup Plugin
+    	$('.filtr-container').magnificPopup({
+	    	type: 'image',
+		    delegate: 'a',
+    		gallery: {
+	    		enabled: true
+    		},
+	    	zoom: {
+		    	enabled: true,
+    			duration: 300,
+	    		easing: 'ease-in-out'
+    		}
+	    });
+
+    	// Galley Shuffle When Scrolled Down
+	    $('.services').waypoint({
+    		handler: function (direction) {
+	    		if (direction == "down") {
+		    		filterizd.filterizr('shuffle');
+			    }
+    		},
+	    	offset: "bottom-in-view"
+    	});
+
+	// load more button
+
+    }
+
+	/*--------------------------------
+			 End Media
+	----------------------------------*/
 
 	/*--------------------------------
 			 Start Testimonials
