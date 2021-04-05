@@ -5,7 +5,7 @@ disableLanguages: [true]
 params:
   author: Gabriel De La Rosa
   contact_form_action: ''
-  description: This is meta description
+  description: Personal website for Gabriel De La Rosa
   google_analytics_id: ''
   logo_dark: images/GD-dark.png
   logo_light: images/GD_light.png
@@ -54,6 +54,9 @@ menu:
     #   name: Service
     #   weight: 3
     - URL: '#portfolio'
+      name: Portfolio
+      weight: 4
+    - URL: '#media'
       name: Portfolio
       weight: 4
     # - URL: '#testimonial'

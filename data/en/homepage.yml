@@ -157,13 +157,7 @@ portfolio:
   enable : true
   title : "PORTFOLIO"
   portfolio_list:
-    # portfolio item loop
-    - name : "Lynx"
-      image : "content/post/lynx/featured.jpg"
-      date : ""
-      category : "Writing"
-      link: "content/post/lynx/index.html"
-      
+    
     # portfolio item loop
     - name : "GIS SB"
       image : "content/post/gis_sb_example/featured.png"
@@ -206,7 +200,24 @@ portfolio:
       category : "Spatial"
       link: "content/post/steelhead/index.html"
       
-
+############################# media ################################
+media:
+  enable : true
+  title : "Media"
+  portfolio_list:
+    # media item loop
+    - name : "Lynx"
+      image : "content/post/lynx/featured.jpg"
+      date : ""
+      category : "Writing"
+      link: "content/post/lynx/index.html"
+      
+      # media item loop
+    - name : "Sierra Lake Project"
+      image : "lakes_pic.JPG"
+      date : ""
+      category : "Science Communication"
+      link: "https://arcg.is/0fbbbK"
 
 ################################# Testimonial #########################33
 testimonial:
