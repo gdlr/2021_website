@@ -40,7 +40,7 @@ about:
   button:
     enable : true
     label : "DOWNLOAD MY RESUME"
-    link : "resume/gabriel_delarosa.pdf" # you can put your cv in static folder and give the path here.
+    link : "RESUME/gabriel_delarosa.pdf" # you can put your cv in static folder and give the path here.
   
     
 
