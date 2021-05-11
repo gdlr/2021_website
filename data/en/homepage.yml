@@ -218,7 +218,14 @@ media:
       date : ""
       category : "Science Communication"
       link: "https://arcg.is/0fbbbK"
-
+      
+          # media item loop
+    - name : "Quota Baskets Executive Summary"
+      image : "content/post/exec_summary/QB_executive_summary.jpg"
+      date : ""
+      category : "Science Communication"
+      link: "content/post/exec_summary/QB_executive_summary.pdf"
+      
 ################################# Testimonial #########################33
 testimonial:
   enable : false
