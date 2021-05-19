@@ -226,6 +226,13 @@ media:
       category : "Science Communication"
       link: "content/post/exec_summary/QB_executive_summary.pdf"
       
+                # media item loop
+    - name : "Data visualization examples"
+      image : "content/post/data_viz/Untitled.jpg"
+      date : ""
+      category : "Science Communication"
+      link: "content/post/data_viz/data_viz.html"
+      
 ################################# Testimonial #########################33
 testimonial:
   enable : false

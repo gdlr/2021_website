@@ -1,0 +1,31 @@
+---
+title: "Data Visualization Examples"
+author: "Gabriel De La Rosa"
+date: "5/15/2021"
+output: html_document
+---
+
+## These are data visualization examples created by Gabriel De La Rosa for various projects, compiled in one place.
+
+
+### *Schematic of Quota Baskets, a novel approach to fisheries management, created from scratch in Adobe Illustrator*
+![](../data_viz/images/qb_overview.png)
+
+### *Example figure from the Quota Baskets final report, created in R and finalized in Illustrator*
+![](../data_viz/images/with_baskets.png)
+
+
+### *Another Example figure from the Quota Baskets final report, created in R and finalized in Illustrator*
+![](../data_viz/images/three_basket.png)
+
+### *Gantt Chart greated in R and Illustrator*
+![](../data_viz/images/comm_gantt.png)
+
+### *Flow chart created in powerpoint*
+![](../data_viz/images/flow_chart.png)
+
+### *Arctic sea ice volume animated chart, created in R*
+![](../data_viz/images/arctic_ice_anim.png)
+
+### *Spatial extent of otter habitat, 2020 and 2050, created in R*
+![](../data_viz/images/otter_extent.png)
