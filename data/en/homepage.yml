@@ -230,7 +230,7 @@ media:
     - name : "Data visualization examples"
       image : "content/post/data_viz/images/three_basket.png"
       date : ""
-      category : "Science Communication", "Data Visualization"
+      category : "Science Communication"
       link: "content/post/data_viz/data_viz.html"
       
 ################################# Testimonial #########################33
