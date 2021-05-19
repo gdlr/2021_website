@@ -228,9 +228,9 @@ media:
       
                 # media item loop
     - name : "Data visualization examples"
-      image : "content/post/data_viz/Untitled.jpg"
+      image : "content/post/data_viz/images/three_basket.png"
       date : ""
-      category : "Science Communication"
+      category : "Science Communication", "Data Visualization"
       link: "content/post/data_viz/data_viz.html"
       
 ################################# Testimonial #########################33
