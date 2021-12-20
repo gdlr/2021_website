@@ -34,7 +34,7 @@ about:
   enable : true
   image : "images/backgrounds/me.jpg"
   title : "ABOUT ME"
-  content : "I am a second year master's student at the UCSB Bren School of Environmental Science & Management. I use data and geospatial analysis to explore solutions to resource management questions in the United States - and then I try and communicate the results to the people that need to hear them."
+  content : "Commmunication Coordinator for the Long Term Ecological Research Network. Relaying critical ecology research to a wide network of researchers. Science writing, community building, digital communication strategies."
   
   # button
   button:
@@ -69,6 +69,12 @@ work:
   enable : true
   title : "Select Work Experience"
   experience_list:
+  
+    - name : "Digital Communications Coordinator"
+      company : "**LTER Network**"
+      duration : "2021-present"
+      content : "Ran digital communications for the LTER Network"
+  
     # experience item loop
     - name : "Seaweed Aquaculture Spatial Analyst"
       company : "**Gaines Lab** | University of California, Santa Barbara"
@@ -84,10 +90,6 @@ work:
       duration : "Summer 2017"
       content : "Biogeochemically sampled 12 backcountry lakes to understand their response to climate change"
       
-    - name : "Drosophila Neurobiology Lab Technician"
-      company : "**Parrish Lab** | University of Washington"
-      duration : "2016-2017"
-      content : "Investigated pain response neurochemical pathways in *Drosophila* larvae"
 
 ############################### Skill #################################
 skill:
@@ -205,6 +207,29 @@ media:
   enable : true
   title : "MEDIA"
   portfolio_list:
+    - name : "Plant Soil Interactions"
+      image : "/images/img/plants.jpg"
+      date : ""
+      category : "Writing"
+      link: "https://lternet.edu/stories/its-not-the-plants-nitrogen-directly-affects-alpine-soil-microbes/"
+      ### 
+    - name : "Kelp is losing nutrition"
+      image : "/images/img/kelp.jpg"
+      date : ""
+      category : "Writing"
+      link: "https://lternet.edu/stories/climate-change-makes-kelp-less-nutritious/"
+      # Media Item Loop
+    - name : "Synchrony begets change"
+      image : "/images/img/coord.jpg"
+      date : ""
+      category : "Writing"
+      link: "https://lternet.edu/stories/coordination-is-everything/"
+      #media item loop
+    - name : "Variation occurs over space and time"
+      image : "/images/img/spacetime.jpg"
+      date : ""
+      category : "Writing"
+      link: "https://lternet.edu/stories/space-time-data-that-cover-both-push-the-boundaries-of-ecology/"
     # media item loop
     - name : "Lynx"
       image : "content/post/lynx/featured.jpg"
@@ -220,14 +245,14 @@ media:
       link: "https://arcg.is/0fbbbK"
       
           # media item loop
-    - name : "Quota Baskets Executive Summary"
+    - name : "Quota Baskets Exec. Sum."
       image : "content/post/exec_summary/QB_executive_summary.jpg"
       date : ""
       category : "Science Communication"
       link: "content/post/exec_summary/QB_executive_summary.pdf"
       
                 # media item loop
-    - name : "Data visualization examples"
+    - name : "Data viz examples"
       image : "content/post/data_viz/images/three_basket.png"
       date : ""
       category : "Science Communication"
